@@ -32,3 +32,16 @@
       return result;
       };
 ```
+## Work experience
+***
+#### I don't have any experience in web development yet, but I have a great desire to learn it.  
+## Education
+***
+   #### * 2003-2007 Molodechno State Polytechnic College. Specialty: installation and operation of electrical equipment. 
+   ### * 2007-2013 Belarusian National Technical University. Specialty: Automated electric drives.   
+   ### * 2021 I started studying the preparatory course " JavaScript/Front-end. Stage 0 " at The Rolling Scopes School.
+   ### * 2022 In 2022 I completed the course " JavaScript/Front-end. Stage 0 " at The Rolling Scopes School and received  a certificate.
+ ## Language
+ ***
+ #### English - Elementary (A1)  
+ #### Russian - native

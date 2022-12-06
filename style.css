@@ -1,5 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Kalam', sans-serif;
+    font-size: 22px;
+    background-color: rgb(184, 183, 182);
+    margin: 50px;
+}
+
+.container{
+    background-color: rgb(74, 69, 69);
+    max-width: 1200px;
+    padding: 10px 30px;
+    margin: 0 auto;
+    color: rgb(227, 233, 204);
+    box-shadow: 15px 15px 70px black;
+    border-radius: 30px;
+}
+
+.navigation-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.navigation-link, .link-github, .title-year{
+    color: red;
+}
+
+.navigation-link:hover, .link-github:hover{
+    color: rgb(227, 233, 204);
+    transition: 1s;
+}
+
+a{
+    color: rgb(227, 233, 204);
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-family: 'Courgette';
+    text-decoration: underline;
+    font-size: 65px;
+}
+
+h2, h1{
+    font-weight: 700;
+    color: rgb(230, 210, 32);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.my-foto img{
+   border-radius: 50%;
+   border: 3px solid red;
+   box-shadow: 0px 0px 10px rgb(230, 210, 32);
+}
+
+.my-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container{
+    padding: 0 30px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.left-column{
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 3px solid red;
+}
+
+.right-column{
+    padding-left: 45px;
+}
+
+.contacts, .skills, .my-projects, .language{
+    text-align: center;
+}
+
+.education-year{
+    background-color: rgb(230, 210, 32);
+    color: rgb(74, 69, 69);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: 3px solid rgb(227, 233, 204);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logo:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    filter: invert(48%) sepia(17%) saturate(237%) hue-rotate(30deg) brightness(100%) contrast(88%);
 }
